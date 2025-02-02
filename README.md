@@ -5,17 +5,18 @@ imported into Standard Notes.
 
 ## Usage.
 
-`git clone https://github.com/EpicVoyage/csv2standardnotes.git`
-`npm install`
+```shell
+git clone https://github.com/EpicVoyage/csv2standardnotes.git
+npm install
+node ./csv2sn.js <input.csv>
+```
 
-`node ./csv2sn.js <input.csv>`
+1. This will create a file called `input.json`. Open that in a text editor and copy the contents.
 
-This will create a file called `input.json`. Open that in a text editor and copy the contents.
+2. In Standard Notes, create a new note.
 
-In Standard Notes, create a new note.
+3. Choose a note type of "Plain Text".
 
-Choose a note type of "Plain Text".
+4. Paste the contents of `input.json` into the note.
 
-Paste the contents of `input.json` into the note.
-
-Change the note type to "Spreadsheet". Confirm the conversion.
+5. Change the note type to "Spreadsheet". Confirm the conversion.
