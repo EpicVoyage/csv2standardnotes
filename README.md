@@ -1,7 +1,9 @@
 # CSV 2 Standard Notes
 
-Standard Notes suffers from a lack of import options. This script will convert a CSV file to a JSON file that can be
-imported into Standard Notes.
+Standard Notes has a bug affecting copy & paste entry of spreadsheet data. This script will convert a CSV file to a
+JSON file that can be imported into Standard Notes.
+
+[Related Bug](https://github.com/standardnotes/forum/issues/3393).
 
 ## Usage.
 
